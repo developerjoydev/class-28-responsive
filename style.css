@@ -1,0 +1,209 @@
+header {
+    background-color: #fff;
+}
+
+.header-logo {}
+
+.header-logo img {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    margin-left: 45%;
+}
+
+ul li {
+    padding: 0 10px 0 0px;
+
+}
+
+.banner-section {
+    background-color: #f9f9ff;
+}
+
+.me-contant {
+    margin-top: 20%;
+}
+
+.me-contant h5 {}
+
+.me-contant h1 {
+    margin: 20px 0;
+}
+
+.me-contant p {
+    margin-bottom: 30px;
+}
+
+.me-contant a {}
+
+.img-me1 {}
+
+.img-me1 img {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.my-btn {
+    background-color: #8490ff; 
+    border: none;
+    padding: 10px 20px;
+}
+
+/* ================== About Me section ======================== */
+.img-me-2 {
+    text-align: right;
+}
+
+.img-me-2 img {
+    width: 510px;
+}
+
+.about-me {
+    margin-left: 65px;
+    margin-top: 42px;
+}
+
+.about-me small {}
+
+.about-me p {}
+
+.about-me h1 {
+    margin: 10px 0 25px;
+}
+
+.about-me a {}
+
+/* ================ number-cunter-section ================ */
+.number-cunter-section {
+    background-color: #8490ff;
+}
+
+.number-cunter-item {}
+
+.number-cunter-item h2 {
+    font-weight: 600;
+}
+
+.number-cunter-item p {
+    margin: 0;
+}
+
+/* ===================== pricing-table-section =================== */
+.pricing-table-section {
+    background-color: #f9f9ff;
+}
+
+.pricing-table {
+    background-color: #fff;
+}
+
+.pricing-table h1 {
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9ff;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 22px;
+}
+
+.pricing-table p {}
+
+.pricing-table h5 {}
+
+.pricing-table a {
+    color: #6b80e1;
+}
+
+.team-section {
+    padding: 90px 0 10px 0;
+}
+
+.team-box {}
+
+.team-box {}
+
+.team-box .card {}
+
+.team-box .card img {
+    margin-left: 15px;
+    margin-top: -88px;
+}
+
+/* ================= contact-section =================== */
+.contact-section {
+    background-color: #f9f9ff;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px 60px;
+}
+
+.custom-btn {
+    background-color: #17a2b8;
+    color: #dadada;
+}
+
+address {
+    margin-top: 35%;
+    margin-left: 25px;
+}
+
+address h4 {
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #04091e;
+    padding: 20px 0;
+}
+footer p{
+    margin: 0;
+}
+
+
+
+
+/* ================= Responsive Css ====================== */
+
+@media (max-width:992px){
+    .number-cunter-item {
+        margin-bottom: 40px;
+    }
+    .img-me-2 {
+        text-align: center;
+    }
+    .pricing-table {
+        margin-bottom: 25px;
+    }
+    .pricing-table {
+        margin-bottom: 25px !important;
+        width: 70%;
+        margin: auto;
+    }
+    ul.navbar-nav {
+        margin: 0 auto !important;
+    }
+}
+
+
+@media (max-width:768px){
+    .img-me1 img {
+        margin-left: 0 !important;
+    }
+    .address {
+        margin-top: 13%;
+        text-align: center;
+    }
+    .pricing-table {
+        width: 100%;
+    }
+}
+@media (max-width:576px){
+    .team-box {
+        margin-bottom: 15px;
+    }
+}
